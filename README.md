@@ -27,7 +27,7 @@ characteristics such as danceability, energy, liveness, and more are recorded as
 0-1.
 
 <p align="center">
-<img width="700" alt="Screenshot 2025-03-28 at 8 58 46 PM" src="https://github.com/user-attachments/assets/785afff8-5e5c-47e7-96ab-42ef0be63b16" />
+<img width="600" alt="Screenshot 2025-03-28 at 8 58 46 PM" src="https://github.com/user-attachments/assets/785afff8-5e5c-47e7-96ab-42ef0be63b16" />
 
 ### Correlation Analysis
 
@@ -36,7 +36,7 @@ don’t see any variables that are highly correlated with track popularity. Howe
 accousticness and energy, loudness and energy, and valence and danceability are highly correlated.
 
 <p align="center">
-<img width="520" alt="Screenshot 2025-03-28 at 8 59 27 PM" src="https://github.com/user-attachments/assets/90ca338a-8ed4-4fff-bb31-d91e978d97b9" />
+<img width="450" alt="Screenshot 2025-03-28 at 8 59 27 PM" src="https://github.com/user-attachments/assets/90ca338a-8ed4-4fff-bb31-d91e978d97b9" />
 
 ### Principal Component Analysis
 
@@ -44,7 +44,7 @@ accousticness and energy, loudness and energy, and valence and danceability are 
 explains 17.9% of the total variance, which is significantly higher than the other principal components, indicating that it captures the most dominant features of variation in the data. We also see a gradual decline in the variance captured for each subsequent PCA. 
 
 <p align="center">
-<img width="638" alt="Screenshot 2025-03-28 at 9 00 07 PM" src="https://github.com/user-attachments/assets/21b67eb0-a269-45bd-8380-5e32247741bc" />
+<img width="500" alt="Screenshot 2025-03-28 at 9 00 07 PM" src="https://github.com/user-attachments/assets/21b67eb0-a269-45bd-8380-5e32247741bc" />
 
 *Table 2* displays the first four PCA loadings. We can loosely interpret them as the following: PC1 highlights loudness and energy,
 with negative acousticness, indicating that energetic songs score higher, while acoustic songs score
@@ -54,7 +54,7 @@ representing major key songs and lower scores representing minor key songs. PC4 
 and instrumental songs.
 
 <p align="center">
-<img width="574" alt="Screenshot 2025-03-28 at 9 00 34 PM" src="https://github.com/user-attachments/assets/17b2d764-014b-43c4-ba59-4ec5f61b2233" />
+<img width="475" alt="Screenshot 2025-03-28 at 9 00 34 PM" src="https://github.com/user-attachments/assets/17b2d764-014b-43c4-ba59-4ec5f61b2233" />
 
 ### Genre & Track Popularity
 
@@ -66,7 +66,7 @@ lower median popularity but still show significant variance. EDM stands out as h
 overall popularity.
 
 <p align="center">
-<img width="635" alt="Screenshot 2025-03-28 at 9 01 06 PM" src="https://github.com/user-attachments/assets/caa69027-e269-45c6-ad14-1f59ecdf1507" />
+<img width="500" alt="Screenshot 2025-03-28 at 9 01 06 PM" src="https://github.com/user-attachments/assets/caa69027-e269-45c6-ad14-1f59ecdf1507" />
 
 ### Tempo & Danceability
 
@@ -79,7 +79,7 @@ This suggests that extremely fast tracks may be less danceable, due to the chall
 a danceable rhythm at such high speed.
 
 <p align="center">
-<img width="650" alt="Screenshot 2025-03-28 at 9 01 33 PM" src="https://github.com/user-attachments/assets/f72e76b6-3c57-4c99-a283-d6c67d090a28" />
+<img width="525" alt="Screenshot 2025-03-28 at 9 01 33 PM" src="https://github.com/user-attachments/assets/f72e76b6-3c57-4c99-a283-d6c67d090a28" />
 
 ### Tempo & Genres
 *Figure 5* shows clear differences in tempo distribution across music genres. EDM, Rap, and Latin
@@ -90,7 +90,7 @@ Pop, Rock, and R&B tend to have more consistent tempos, with Pop and Rock center
 clear differences in tempo patterns across genres. Genres like EDM, Rap, and Latin show wider variability, while Pop, Rock, and R&B exhibit more consistent tempo ranges.
 
 <p align="center">
-<img width="635" alt="Screenshot 2025-03-28 at 9 02 00 PM" src="https://github.com/user-attachments/assets/c09ab910-93dc-4196-8d87-896e0f96a95e" />
+<img width="510" alt="Screenshot 2025-03-28 at 9 02 00 PM" src="https://github.com/user-attachments/assets/c09ab910-93dc-4196-8d87-896e0f96a95e" />
 
  ## Modeling
 To obtain the highest possible expected revenue, we need to build a highly accurate model. Therefore, we will fit and test several different regression models: Linear Regression, CART, Random
@@ -139,7 +139,7 @@ option. Based on these findings, we conclude that the Random Forest model is the
 predictive model for our dataset and should be utilized for generating recommendations.
 
 <p align="center">
-<img width="849" alt="Screenshot 2025-03-28 at 9 02 56 PM" src="https://github.com/user-attachments/assets/35430f76-e636-483a-a9bf-8a6a525d4aec" />
+<img width="700" alt="Screenshot 2025-03-28 at 9 02 56 PM" src="https://github.com/user-attachments/assets/35430f76-e636-483a-a9bf-8a6a525d4aec" />
 
 ## References
 
